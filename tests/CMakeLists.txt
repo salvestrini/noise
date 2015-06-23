@@ -11,6 +11,6 @@ include_directories(${NOISE_INCLUDES})
 
 link_directories(${CMAKE_BINARY_DIR}/noise)
 
-add_executable(test test.cc)
+add_executable(test-01 test-01.cc)
 
-target_link_libraries(test noise)
+target_link_libraries(test-01 noise)
